@@ -1,0 +1,81 @@
+.form-group{
+    margin-bottom:1rem;
+}
+.ornek{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    }
+
+#inputValue{
+    width: 760px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+
+#search{
+    color: #fff;
+    background-color: #007bff;
+    outline: none;
+    min-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    line-height: 1.5;
+}
+
+#movies-searchable{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+section img{
+    width: 300px;
+    transition:500ms all;
+}
+
+img:hover{
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.content{
+    border:1px solid lightgray;
+    display: none;
+}
+.content div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:10px;
+}
+.content div iframe{
+    margin-top: 0;
+}
+.content-display{
+    display: block;
+}
+
+#movies-container div{
+    margin-top: 50px;
+}
